@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" xmlns="http://www.topografix.com/GPX/1/1">
+<time>2017-06-01T10:36:22.186Z</time>
+<trk>
+<trkseg>
+<trkpt lat="35.365968055555555" lon="138.73368555555555">
+<ele>3680.0</ele>
+<time>2017-06-01T07:53:06Z</time>
+</trkpt>
+<trkpt lat="35.36499416666667" lon="138.73331305555556">
+<ele>3712.0</ele>
+<time>2017-06-01T07:53:10Z</time>
+</trkpt>
+<trkpt lat="35.36499416666667" lon="138.73331305555556">
+<ele>3712.0</ele>
+<time>2017-06-01T07:53:11Z</time>
+</trkpt>
+<trkpt lat="35.36493166666666" lon="138.73317333333333">
+<ele>3712.0</ele>
+<time>2017-06-01T07:53:15Z</time>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

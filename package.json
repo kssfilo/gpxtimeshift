@@ -1,0 +1,28 @@
+{
+  "name": "gpxtimeshift",
+  "description": "Command line tool to shift time stamp of GPX file by specified offset",
+  "main": "gpxtimeshift.js",
+  "bin": {
+    "gpxtimeshift": "./cli.js"
+  },
+  "@PARTPIPE@VERKEY@PARTPIPE@": "@PARTPIPE@VERSION@PARTPIPE@",
+  "dependencies": {
+    "rxjs": "^5.4.0",
+    "rxjs-exec": "^0.4.1",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "partpipe": "^0.4.0",
+    "coffee-jshint": "^0.2.6",
+    "coffee-script": "^1.12.4"
+  },
+  "tags": [],
+  "author": {
+    "name": "kssfilo"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kssfilo/gpxtimeshift.git"
+  }
+}
