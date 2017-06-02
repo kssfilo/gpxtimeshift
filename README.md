@@ -1,7 +1,7 @@
 gpxtimeshift
 ==========
 
-Command line tool to shift time stamp in GPX file by specified offset
+Command line tool to shift timestamps in GPX file by specified offset
 
 ```
 #example

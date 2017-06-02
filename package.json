@@ -1,6 +1,6 @@
 {
   "name": "gpxtimeshift",
-  "description": "Command line tool to shift time stamp of GPX file by specified offset",
+  "description": "Command line tool to shift timestamps in GPX file by specified offset",
   "main": "gpxtimeshift.js",
   "bin": {
     "gpxtimeshift": "./cli.js"
