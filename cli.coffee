@@ -8,16 +8,16 @@ arg=process.argv[2]
 
 if arg is '-h' or !arg
 	console.log """
-		gpxtimeshift [-h] <offset> < <gpxfile>
+		gpxtimeshift [-h] <offset> < <gpxfile> > <output>
 		
 		Command line tool to shift timestamps in GPX file.
 
 		example:
-			gpxtimeshift +1s < today.gpx  #+ 1 second
-			gpxtimeshift +1h < today.gpx  #+ 1 hour
-			gpxtimeshift +1d < today.gpx  #+ 1 day
-			gpxtimeshift +1m < today.gpx  #+ 1 minute
-			gpxtimeshift -1d < today.gpx  #- 1 day
+			gpxtimeshift +1s < today.gpx >output.gpx  #+ 1 second
+			gpxtimeshift +1h < today.gpx >output.gpx  #+ 1 hour
+			gpxtimeshift +1d < today.gpx >output.gpx  #+ 1 day
+			gpxtimeshift +1m < today.gpx >output.gpx  #+ 1 minute
+			gpxtimeshift -1d < today.gpx >output.gpx  #- 1 day
 	"""
 	process.exit 0
 
