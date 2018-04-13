@@ -15,8 +15,8 @@ gpxTimeShift=(gpxString,offsetSeconds)->
 		Rx.Observable.of gpxString
 		.flatMap (gpxxml)->Rx.Observable.bindNodeCallback(XmlParser.parseString)(gpxxml)
 		.map (gpx)->
-			if gpx.gpx?.time?
-				gpx.gpx.time=shiftTime(gpx.gpx.time,offsetSeconds)
+			if gpx.gpx?.metadata?[0]?.time?
+				gpx.gpx.metadata[0].time=shiftTime(gpx.gpx.metadata[0].time,offsetSeconds)
 			for i in [0..gpx.gpx.trk.length-1]
 				for j in [0..gpx.gpx.trk[i].trkseg.length-1]
 					for k in [0..gpx.gpx.trk[i].trkseg[j].trkpt.length-1]

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata>
 <time>2017-06-01T10:36:22.186Z</time>
+</metadata>
 <trk>
 <trkseg>
 <trkpt lat="35.365968055555555" lon="138.73368555555555">
